@@ -1,0 +1,53 @@
+/* 질문과 선택지 스타일 */
+.question-container { 
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 결과 영역 스타일 */
+#result {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#result h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#result p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
